@@ -3,60 +3,52 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title> Sign In / Sign Up Form </title>
-  <link link rel="stylesheet" type="text/css" href="style.css"> 
-  
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <title> Basic javascript </title>
 </head>
-<body>
-  <div class="container" id="container">
-    <div class="form-container sign-up-container">
-      <form action="#">
-        <h1>Create Account</h1>
-        <div class="social-container">
-          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+<body style="overflow:scroll" >
+    <header id="body" style="background-color:#008080;color:antiquewhite;height:10rem;font-size:20px;text-align: center">
+        <h1 id="headertitle" style="text-transform:uppercase">Basic Javascript</h1>
+        <div>
+            <input type="text" id="filter">
         </div>
-        <span>or use your email to registration</span>
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email" />
-        <input type="password" placeholder="Password" />
-        <button>Sign Up</button>
-      </form>
+   
+    </header>
+
+    
+    <form id="addForm" class="form-inline mb-3">
+        <input type="text" class="form-control mr-2" id="item">
+        <input type="submit" class="btn btn-dark" value="Submit">
+    </form>  
     </div>
-    <div class="form-container sign-in-container">
-      <form action="#">
-        <h1>Sign in</h1>
-        <div class="social-container">
-            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+    <div id="hello">
+        <div id="firstdiv">
+            <h1 >Items</h1>
+            <ul id="items">
+                <li class="list-group-item">item 1<button class="btn btn-danger btn-sm float-right delete">X</button></li>            
+                <li class="list-group-item">item 2<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+                <li class="list-group-item">item 3<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+                <li class="list-group-item">item 4<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+            </ul>
+            <div id="output"></div>
         </div>
-        <span>or use your account</span>
-        <input type="email" placeholder="Email" />
-        <input type="password" placeholder="Password" />
-        <a href="#">Forgot your password?</a>
-        <button>Sign In</button>
-    </form>
+    </div>
+    <div style="padding:20px;width:100%;background-color:blanchedalmond;color:chocolate">
+    </div>
+    <div>
+        <h1>hello</h1>
+        <h1>hello</h1>
+        <h1>hello</h1>
+        <h1>hello</h1>
 
     </div>
-    <div class="overlay-container">
-      <div class="overlay">
-        <div class="overlay-panel overlay-left content1">
-            <h1>Welcome Back!</h1>
-            <p >
-                To keep connected with us please login with your personal info
-            </p>
-            <button class="ghost" id="signIn">Sign In</button>
-        </div>
-        <div class="overlay-panel overlay-right content2">
-            <h1>Hello, Friend!</h1>
-            <p >Enter your personal details and start journey with us</p>
-            <button class="ghost" id="signUp">Sign Up</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="js/main.js"></script>
+<script src="js/java.js"></script>
+
+
+
+
+
+
+
+
 </body>
