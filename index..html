@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./css/style.css">
+    <title> My Book List </title>
+    <link link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5629c2d1e4.js"></script>
+</head>
+<body>
+
+	<header class="container">
+		<div class="header">
+		    <i class="fas fa-book-open fa-3x color"></i>
+		    <h1>My<span class="color">Book</span>List</h1>
+		</div>
+
+	</header>
+	<form class="container" id="book-form">
+		<div class="formsize">
+			<div class="section1">
+				<h3>Title</h3>
+				<input type="text" id="title">
+				<h3>Author</h3>
+				<input type="text" id="author">
+				<h3>ISBN#</h3>
+				<input type="text" id="isbn">
+			</div>
+			<div class="section2">
+				<input type="submit" value="Add book" id="form">
+			</div>
+		</div>
+	</form>
+	<table class="container tab">
+		<thead >
+			<tr class="tab1">
+				<th>Title</th>
+				<th>Author</th>
+				<th>ISBN#</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody id="book-list">
+		</tbody>
+	</table>
+	<script src="js/main.js"></script>
+</body>
+
+

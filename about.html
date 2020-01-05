@@ -3,61 +3,94 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/5629c2d1e4.js" crossorigin="anonymous"></script>
-
-    <title> Sign In / Sign Up Form </title>
-    <link link rel="stylesheet" type="text/css" href="style1.css"> 
-  
+	<link rel="stylesheet" href="./css/style.css">
+    <title> Basic html </title>
 </head>
 <body>
-  <div class="container" id="container">
-    <div class="form-container sign-up-container">
-      <form action="#">
-        <h1>Create Account</h1>
-        <div class="social-container">
-          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        <span>or use your email to registration</span>
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email" />
-        <input type="password" autocomplete="current-password" placeholder="Password" />
-        <button>Sign Up</button>
-      </form>
-    </div>
-    <div class="form-container sign-in-container">
-      <form action="#">
-        <h1>Sign in</h1>
-        <div class="social-container">
-            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        <span>or use your account</span>
-        <input type="email" placeholder="Email" />
-        <input type="password" autocomplete="current-password" placeholder="Password" />
-        <a href="#">Forgot your password?</a>
-        <button>Sign In</button>
-    </form>
+	<a href=#>Go to blog</a>
+	<hr>
+	<h1>Heading one</h1>
+	<h2>Heading two</h2>
+	<h3>Heading three</h3>
+	<h4>Heading four</h4>
+	<h5>Heading five</h5>
+	<h6>Heading six</h6>
+	<p>lorem text</p>
+	<p>lorem text <a href=#>something special</a></p>
+	<ul>
+		<li>List Item 1</li>
+		<li>List Item 2</li>
+		<li>List Item 3</li>
+		<li>List Item 4</li>
+	</ul>
+	<ol>
+		<li>List Item 1</li>
+		<li>List Item 2</li>
+		<li>List Item 3</li>
+		<li>List Item 4</li>
+	</ol>
+	<table>
+		<thead>
+			<tr>
+				<th>Name </th>
+				<th>Email</th>
+				<th>Age</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Brad Traversy</td>
+				<td>brad@something.com</td>
+				<td>54</td>
+			</tr>
+			<tr>
+				<td>Brad Traversy</td>
+				<td>brad@something.com</td>
+				<td>54</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<form>
+		<div style="margin-bottom:10px"> 			
+		    <label for="first name">First name</label>
+			<input type="email" placeholder="Enter first name">
+		</div>
+		<div style="margin-bottom:10px">
+		    <label for="last name">Last name</label>
+			<input type="email">
+		</div>	
+		<div style="margin-bottom:10px">
+			<label for="email">Email</label>
+			<input type="email">
 
-    </div>
-    <div class="overlay-container">
-      <div class="overlay">
-        <div class="overlay-panel overlay-left content1">
-            <h1>Welcome Back!</h1>
-            <p >
-                To keep connected with us please login with your personal info
-            </p>
-            <button class="ghost" id="signIn">Sign In</button>
-        </div>
-        <div class="overlay-panel overlay-right content2">
-            <h1>Hello, Friend!</h1>
-            <p >Enter your personal details and start journey with us</p>
-            <button class="ghost" id="signUp">Sign Up</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="js/main.js"></script>
+		</div>
+		<div style="margin-bottom:10px">
+			<label for="massage">Massage</label>
+			<input type="text" style="padding:20px">
+		</div>
+		<div style="margin-bottom:10px">
+			<label for="gender">Gender</label>
+			<select name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+		<div style="margin-bottom:10px">
+			<label for ="age">Age:</label>
+			<input type="number" value=30>
+		</div>
+		<div>
+			<label for ="dateofbirth">Birthday:</label>
+			<input type="date">
+		</div>
+		<button>Submit</button>
+		<br>
+		<button style="margin-bottom:10px">Click me</button>
+		<br>
+		<img src="html_images.asp"/>
+		<a style="text-decoration:none" href="html_images.asp">My sample picture</a>
+	</form>
 </body>
+	
